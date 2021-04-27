@@ -4,8 +4,14 @@
   "description": "toDoist project",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome '/Users/ricardo.rodriguezr/Desktop/toDoist-frontend/e2e/test/Login.test.js'"
+
+    "test:chrome": "testcafe chrome ./e2e/test",
+    "test:all": "testcafe all ./e2e/test"
+
   },
   "author": "Ricardo Rodriguez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
