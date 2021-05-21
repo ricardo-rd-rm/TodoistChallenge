@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
 
-    "test:chrome": "testcafe chrome ./e2e/test",
-    "test:all": "testcafe all ./e2e/test"
+    "test:chrome:headless": "testcafe chrome:headless ./TodoistChallenge/e2e/test",
+    "test:chrome": "testcafe chrome ./TodoistChallenge/e2e/test",
+    "test:safari": "testcafe safari ./TodoistChallenge/e2e/test",
+    "test:all": "testcafe all ./TodoistChallenge/e2e/test"
 
   },
   "author": "Ricardo Rodriguez",
