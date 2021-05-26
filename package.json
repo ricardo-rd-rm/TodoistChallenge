@@ -4,11 +4,11 @@
   "description": "toDoist project",
   "main": "index.js",
   "scripts": {
-    "test:chrome:headless": "testcafe chrome:headless ./TodoistChallenge/e2e/test",
-    "test:chrome": "testcafe chrome ./TodoistChallenge/e2e/test",
-    "test:safari": "testcafe safari ./TodoistChallenge/e2e/test",
-    "test:all": "testcafe all ./TodoistChallenge/e2e/test",
-    "test:mobile": "testcafe remote ./TodoistChallenge/e2e/test --qr-code"
+    "test:chrome:headless": "testcafe chrome:headless ./TodoistChallenge/FrontEnd/test",
+    "test:chrome": "testcafe chrome ./TodoistChallenge/FrontEnd/test",
+    "test:safari": "testcafe safari ./TodoistChallenge/FrontEnd/test",
+    "test:all": "testcafe all ./TodoistChallenge/FronEnd/test",
+    "test:mobile": "testcafe remote ./TodoistChallenge/FrontEnd/test --qr-code"
     
 
   },
