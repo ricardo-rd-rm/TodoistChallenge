@@ -4,11 +4,12 @@
   "description": "toDoist project",
   "main": "index.js",
   "scripts": {
-
     "test:chrome:headless": "testcafe chrome:headless ./TodoistChallenge/e2e/test",
     "test:chrome": "testcafe chrome ./TodoistChallenge/e2e/test",
     "test:safari": "testcafe safari ./TodoistChallenge/e2e/test",
-    "test:all": "testcafe all ./TodoistChallenge/e2e/test"
+    "test:all": "testcafe all ./TodoistChallenge/e2e/test",
+    "test:mobile": "testcafe remote ./TodoistChallenge/e2e/test --qr-code"
+    
 
   },
   "author": "Ricardo Rodriguez",
@@ -16,6 +17,7 @@
   "dependencies": {
     "-": "0.0.1",
     "dotenv": "8.2.0",
+    "faker": "^5.5.3",
     "g": "^2.0.1",
     "testcafe": "^1.8.6",
     "testcafe-reporter-html": "^1.4.6"
